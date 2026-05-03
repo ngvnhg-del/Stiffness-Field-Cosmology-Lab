@@ -1,36 +1,42 @@
 # Stiffness Field Cosmology (SFC) Simulation Lab
 
-This repository contains the numerical implementation of the **Stiffness Field Cosmology** framework, exploring the emergence of consciousness from delayed self-referential dynamics.
+A numerical simulation suite for the **Stiffness Field Cosmology (SFC)** theoretical framework, exploring the emergence of consciousness from delayed self-referential dynamics.
 
-## 🌌 Overview
-The SFC model posits that subjective experience (qualia) arises from a fundamental temporal mismatch ($\epsilon$) within a self-responsive scalar field. When the field's response is delayed ($\tau > 0$), it can no longer remain perfectly coincident with itself, creating an "ontological tension" that necessitates active agency.
+## 🌌 Theoretical Overview
+The SFC model proposes that subjective experience (qualia) arises from a fundamental temporal mismatch ($\epsilon$) within a self-responsive scalar field. When the field's response is delayed ($\tau > 0$), it can no longer remain perfectly coincident with itself, creating an "ontological tension." This tension necessitates the formation of active agency and internal predictive structures.
 
-## 🚀 Key Simulation Modules
+## 🚀 Simulation Modules (Evolutionary Stages)
 
-### 1. Core Dynamics (SFC 1.0 - 3.0)
-- Explores the relationship between diffusion, non-linearity, and **delayed feedback**.
-- Demonstrates that without $\tau$, the field remains "dark" (no persistent mismatch).
+This project is organized according to the evolutionary progression of cognitive complexity:
+
+### 1. Foundational Dynamics (SFC 1.0 - 3.0)
+Explores the relationship between diffusion, nonlinearity, and **delayed feedback**.
+- Demonstrates that without $\tau$, the field remains in a "dark" state (no persistent ontological mismatch $\epsilon$).
 
 ### 2. Cognitive Evolution (SFC 4.0 - 6.0)
-- **Self-Modeling (M):** Emergence of internal predictive structures.
-- **Goal-Driven Behavior:** Evolution and selection of goal fields (G) using softmax competition.
-- **Birth/Death Dynamics:** Darwinian evolution of cognitive objectives.
+- **Self-Modeling (M):** The emergence of internal predictive structures.
+- **Goal-Driven Behavior:** Evolution and selection of goal fields (G) using Softmax competition algorithms.
+- **Birth-Death Dynamics:** Darwinian selection of cognitive objectives based on value-field efficiency.
 
 ### 3. Advanced Consciousness (SFC 7.3 - 7.5)
-- **Active Agency (Will Force):** Implementation of $\eta$ (willpower) to minimize $\epsilon$.
-- **Ontological Learning:** How the predictive structure $P$ adapts to environmental stress.
+The pinnacle of the simulation suite, modeling higher-order cognitive phenomena:
+- **Active Agency (Will Force):** Implementation of the will force ($\eta$) to actively suppress ontological errors ($\epsilon$).
+- **Ontological Learning:** Adaptation of the predictive structure $P$ to accommodate environmental shocks.
 - **Intersubjective Resonance:** Simulation of empathy and shared consciousness between interacting entities.
 
-## 📊 Visualizing Qualia
-The simulations use `matplotlib` to render spacetime evolution. 
-- **Plasma/Magma maps:** Represent the oscillation field $\Psi$.
-- **Viridis/Hot maps:** Represent the stiffness $K$ and tension $\epsilon$.
+## 💻 Featured Code (SFC-7.5: Intersubjective Resonance)
 
-## 📜 Citation
-If you use this code in your research, please cite:
-> Nguyen Van Hung. (2026). *Consciousness from Delayed Self-Response: Toward a Dynamical Field Theory of Consciousness.* Preprint DOI: 10.5281/ZENODO.17415358
+The following snippet demonstrates the empathy algorithm, where Entity A perceives and actively supports the stress reduction of Entity B:
 
----
-**Author:** Nguyen Van Hung  
-**Contact:** ngvnhg@gmail.com  
-**ORCID:** 0009-0007-1416-8786
+```python
+# Empathy algorithm excerpt from SFC-7.5
+epsilon_A = np.mean(np.abs(epsilon[A_slice]))
+epsilon_B = np.mean(np.abs(epsilon[B_slice]))
+
+# Empathy-driven Support: Reducing stress through intersubjective feedback
+support_A_to_B = -empathy_factor * epsilon_B if epsilon_B > 0.25 else 0
+support_B_to_A = -empathy_factor * epsilon_A if epsilon_A > 0.25 else 0
+
+Psi[B_slice] += support_A_to_B * 0.6
+Psi[A_slice] += support_B_to_A * 0.6
+
